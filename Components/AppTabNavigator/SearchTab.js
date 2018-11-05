@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import {TabNavigator} from 'react-navigation'
@@ -20,27 +19,4 @@ class SearchTab extends Component{
     }
 }
 
-=======
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
-import {TabNavigator} from 'react-navigation'
-import {Icon} from 'native-base';
-
-
-class SearchTab extends Component{
-    static navigationOptions={
-            tabBarIcon:({tintColor})=>(
-                <Icon name='paper' style={{color:tintColor}}/>
-            )
-        }
-    render(){
-        return(
-            <View>
-                <Text>HomeScreen</Text>
-            </View>
-        );
-    }
-}
-
->>>>>>> 14020e034b8a89b7308a718edfabb8e3175b7a41
 export default SearchTab;
